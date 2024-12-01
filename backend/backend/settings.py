@@ -30,7 +30,7 @@ SECRET_KEY = "django-insecure-3w80tm()&%my9d6_2b4supf*w4y%-j2s=xzd=(g)!3+$n!@!@m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["wlmz88-8000.csb.app"]
+ALLOWED_HOSTS = ["wlmz88-8000.csb.app", "fymsnd-8000.csb.app"]
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
@@ -55,7 +55,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "signinsystem",
+    "api",
     "rest_framework",
     "corsheaders",
 ]
